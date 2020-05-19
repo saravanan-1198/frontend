@@ -1,0 +1,139 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  background:  #ef8172;
+}
+.image1{
+  /* margin:75px auto 75px auto; */
+  width: 430px;
+  height: 500px;
+  background-color: #ff4c68;
+  border-radius: 100%;
+  margin:4%;
+  padding: 2%;
+  position: absolute;
+
+  /* transform: rotate(25deg); */
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+  padding: 1%;
+}
+h2{
+  padding-bottom: 1rem;
+  font-family: "Montserrat-bold";
+}
+h3{
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+button{
+  margin: 5% 3% 5% 0;
+}
+p{
+  color: #8f8f8f;
+}
+
+/* NAVBAR STYLES */
+.navbar{
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 0;
+}
+.nav-item{
+  padding: 0 1.5rem;
+}
+.nav-link{
+  font-weight:bolder;
+}
+
+/* FEATURES */
+#features{
+  padding:  7% 15%;
+  position: relative;
+  z-index: 1;
+
+}
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+color: #ff4c68;
+}
+
+/* DESCRIPTION */
+#Owner{
+  background-color: #ef8172;
+  /* font-family: Montserrat-Bold; */
+  text-align: center;
+
+  color: white;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.images2{
+  width: 10%;
+  margin: 1%;
+  border-radius: 100%;
+}
+
+/* PRICING */
+#pricing{
+  padding: 7% 15%;
+  text-align: center;
+}
+.pricing_list{
+  padding: 1% 0;
+}
+.card-deck{
+  margin-top: 5%;
+}
+
+@media (max-width: 990px) {
+  #title{
+    text-align: center;
+  }
+  .image1{
+    position: static;
+  }
+}
+
+/* LAST */
+#last{
+  background:  #ef8172;
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
+  font-family: "Montserrat-Bold";
+  line-height: 1.5rem;
+  padding: 7% 15%;
+}
+#last_section{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+}
+
+.icon1{
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
